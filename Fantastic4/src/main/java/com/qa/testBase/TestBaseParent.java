@@ -48,6 +48,7 @@ public class TestBaseParent {
 	@AfterMethod
 	public void closeBrowser()
 	{
+		System.out.println("dekhre ho ra kya");
 		System.out.println("closed");
 		driver.quit();
 	}
